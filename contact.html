@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Input Form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+     <!--start part of Navbar-->
+     <nav>
+        <div class="left-side">
+             <a href="#"><img src="assets/image/logo.png" alt="logo"></a>  
+            
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="blog.html">Blog</a></li>
+            </ul>       
+        </div>
+        
+        <div class="right-side">
+            <a href="contact.html">Contact me</a>
+        </div>
+        
+    </nav>
+    <!--end part of navbar-->
+
+    <div class="wrapper">
+
+        <div class="title">
+            <h1>Get In Touch</h1>
+        </div>
+
+        <form action="">
+
+            <div class="container-box1">
+                <div class="name">
+                    <label for="name">Name</label>
+                    <input type="text" id="name" placeholder="your name" >
+                </div>
+                <div class="email">
+                    <label for="email">Email</label>
+                    <input type="email" id="email" placeholder="mamat@gmail.com">
+                </div>
+            </div>
+            
+            <div class="container-box2">
+                <div class="phone_number">
+                    <label for="pnumber">Phone Number</label>
+                    <input type="text" id="pnumber" placeholder="+62********">
+                </div>
+                <div class="subject">
+                    <label for="subject">Subject</label>
+                    <select id="subject">
+                        <option value="business interests">business interests</option>
+                        <option value="project">project interests</option>
+                        <option value="me">meet</option>
+                    </select>
+                </div>
+            </div>
+            <div class="container-box3">
+                <label for="message">Your Message</label>
+                <textarea id="message" cols="" rows="" placeholder="Send message for me"></textarea>
+            </div>
+
+            <div class="submit">
+                <button type="button" onclick="showData()">send</button>
+            </div>
+
+        </form>
+
+    </div>
+
+    <script src="main.js"></script>
+
+</body>
+</html>

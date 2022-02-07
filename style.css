@@ -1,0 +1,669 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: cadetblue;
+    width: 100%;
+}
+
+/* start styling to navbar*/
+nav{
+    height: 9vh;
+    display: flex;
+    background-color: burlywood;
+}
+
+nav .left-side{
+    flex: 50%;
+    align-items: center;
+    display: flex;
+}
+
+nav div.left-side{
+    padding-left: 90px;
+}
+
+.left-side ul{
+    list-style-type: none;
+}
+
+.left-side ul li{
+    display: inline;
+    margin-left: 40px;
+}
+
+nav .left-side ul li a{
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    font-weight: 600;
+    
+}
+
+nav .left-side img{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+}
+
+nav div.right-side{
+    padding-right: 90px;
+    display: flex;
+    justify-content: flex-end
+}
+
+nav .right-side a{
+    font-size: 15px;
+    font-family: sans-serif;
+    text-decoration: none;
+    text-align: center;
+    padding: 10px 10px;
+    margin: 8px;
+    border: none;
+    background-color: white;
+    border-radius: 10px; 
+    color: burlywood;
+}
+/* finish styling to navbar */
+
+/*start styling to home*/
+.main{
+    height: 91vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container1{
+    width: 350px;
+    height: 450px;
+    border: none;
+    background-color: burlywood;
+    border-radius: 10px;
+    box-shadow: -5px 5px 5px rgba(0,0,0,75%);
+}
+
+.container1 img{
+    width: 200px;
+    height: 300px;
+    border-radius: 10px;
+    margin: 20px 75px 5px 75px;
+}
+
+.container1 p{
+    text-align: center;
+    font-size: 20px;
+    font-family: sans-serif;
+}
+
+.container1 table{
+    border-collapse: none;
+    border-spacing: 5px;
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+    width: 300px;
+    height: 90px;
+    margin: 3px 25px 0 25px;
+    font-family: monospace;
+}
+
+.container1 table tr{
+    border: 1px none;
+    text-align: center;
+}
+
+.container1 table tr th{
+    background-color: black;
+    color: white;
+    border-radius: 20px;
+}
+
+
+.main .container2{
+    width: 50%;
+    height: 450px;
+    margin-left: 15px;
+    border: none;
+    border-radius: 10px;
+    background-color: burlywood;
+    box-shadow: -5px 5px 5px rgba(0,0,0,75%)
+
+}
+
+.main .container2 h1{
+    font-size: 40px;
+    padding-left: 30px;
+    border-bottom: 2px solid black ;
+    border-color: cadetblue;
+    text-transform:uppercase;
+}
+
+.main .container2 .text{
+    text-align: justify;
+    margin: 10px 10px 20px 10px;
+    font-family: monospace;
+}
+ 
+.container2 .content2{
+    height: 170px;
+    width: 600px;
+    margin: 10px;
+    display: flex;
+}
+
+.item1{
+    margin: 10px;
+    padding: 10px;
+    border: 2px solid cadetblue;
+    border-radius: 10px;
+}
+
+.item1 p{
+    text-align: center;
+    font-family: monospace;
+}
+
+.item2{
+    margin: 10px;
+    padding: 10px;
+    border: 2px solid cadetblue;
+    border-radius: 10px;
+}
+
+.item2 p{
+    text-align: center;
+    font-family: monospace;
+}
+
+.item3{
+    margin:10px;
+    padding: 10px;
+    border: 2px solid cadetblue;
+    border-radius: 10px;
+}
+
+.item3 p{
+    text-align: center;
+    font-family: monospace;
+}
+
+.container2 .content2 img{
+    width: 50px;
+    height: 50px;
+    margin-left: 55px;
+    border: none;
+    border-radius: 50%;
+}
+
+/*start styling sosmed*/
+.sosmed{
+margin-top: 35px;
+}
+
+.sosmed .item-ssm{
+    margin-left: 20px ;
+}
+
+.sosmed .item-ssm a{
+    text-decoration: none;
+}
+
+.fa-facebook,.fa-instagram,.fa-twitter,.fa-whatsapp{
+    color: black;
+}
+/*end styling sosmed*/
+
+/*end styling to home*/
+
+
+/*styling contact*/
+.wrapper{
+    width: 600px;
+    height: 500px;
+    margin: auto;
+    margin-top: 20px;
+    border: 1px solid cadetblue;
+    border-radius: 15px;
+    background-color: burlywood;
+    box-shadow: -5px 5px 5px rgba(0,0,0,75%);
+}
+
+.title{
+    margin: 30px 20px;
+    padding: 10px 30px;
+    border:none;
+    border-radius: 10px;
+    background-color: cadetblue;
+}
+
+.title h1{
+    text-align: center;
+    color: black;
+}
+
+.container-box1{
+    margin: 0 10px;
+    padding: 10px 20px ;
+}
+
+.name{
+    display: inline-block;
+}
+
+.name label{
+    display: block;
+    font-size: 13px;
+}
+
+.name input{
+    width: 170px;
+    height: 25px;
+    border: 1px solid black;
+    border-left: 2px solid black;
+    border-top: 2px solid black;
+    border-radius: 8px;
+    padding-left: 10px;
+    background-color: rgb(236, 226, 226);
+}
+
+.email{
+    display: inline-block;
+    margin-left: 100px;
+
+}
+
+.email label{
+    display: block;
+    font-size: 13px;
+}
+
+.email input{
+    width: 170px;
+    height: 25px;
+    border: 1px solid black;
+    border-left: 2px solid black;
+    border-top: 2px solid black;
+    border-radius: 8px;
+    padding-left: 10px;
+    background-color: rgb(236, 226, 226);
+}
+
+.container-box2{
+    margin: 10px 10px;
+    padding: 10px 20px;
+    display: inline-flexbox;
+}
+
+.phone_number{
+    display: inline-block;
+}
+
+.phone_number label{
+    display: block;
+    font-size: 13px;
+}
+
+.phone_number input{
+    width: 170px;
+    height: 25px;
+    border: 1px solid black;
+    border-left: 2px solid black;
+    border-top: 2px solid black;
+    border-radius: 8px;
+    padding-left: 10px;
+    background-color: rgb(236, 226, 226);
+}
+
+.subject{
+    display: inline-block;
+    margin-left: 100px;
+}
+
+.subject label{
+    display: block;
+    font-size: 13px;
+}
+
+.subject select{
+    width: 170px;
+    height: 25px;
+    border: 1px solid black;
+    border-left: 2px solid black;
+    border-top: 2px solid black;
+    border-radius: 8px;
+    padding-left: 10px;
+    background-color: rgb(236, 226, 226);
+}
+
+.container-box3{
+    margin: 10px 10px;
+    padding: 10px 20px;
+}
+
+.container-box3 label{
+    display: block;
+    font-size: 13px;
+}
+
+.container-box3 textarea{
+    width: 200px;
+    height: 100px;
+    border: 1px solid black;
+    border-left: 2px solid black;
+    border-top: 2px solid black;
+    border-radius: 8px;
+    padding-left: 10px;
+    background-color: rgb(236, 226, 226);
+    resize: none;
+}
+
+.submit{
+    margin: 10px 30px;
+    padding: 0;
+    float: right;
+}
+
+.submit button{
+    margin: 0;
+    margin-right: 70px;
+    padding: 5px 8px;
+    border: 1px solid black;
+    border-left: 2px solid black;
+    border-top: 2px solid black;
+    border-radius: 8px;
+    padding-left: 10px;
+    background-color: rgb(236, 226, 226);
+}
+/*end styling contact*/
+
+  /* Blog Form */
+  .blog-form {
+    padding: 50px 0;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .blog-form .form-container {
+    width: 500px;
+  }
+  
+  .blog-form .form-container h1 {
+    text-align: center;
+    margin-bottom: 40px;
+    text-transform: uppercase;
+  }
+  
+  .blog-form form label {
+    font-size: 20px;
+    font-weight: 400;
+  }
+
+  .blog-form form .date{
+      display:flex;
+  }
+
+  .date-end label{
+    padding: 40px;
+  }
+
+ .date-end input{
+    float: right;
+  }
+
+  .blog-form form .date input{
+      width: 230px;
+      font-size: 20px;
+      font-weight: 400;
+      padding: 8px;
+      margin-top: 5px;
+      margin-bottom: 20px;
+      background-color: #f4f3f3;
+      border: 1px solid #c4c4c4;
+      border-radius: 8px;
+  }
+
+  .blog-form form .check-box{
+    margin-top: 15px;
+    font-size: 18px;
+    font-weight: 400;
+    display: flex;
+  }
+  
+  .check-box input{
+    width: 18px;
+    height: 18px;
+  }
+
+  .check-box .check-box1{
+    width: 50%;
+  }
+
+  .check-box .check-box2{
+    width: 50%;
+    margin-left: 40px;
+  }
+
+  .check-box .item{
+    margin: 0px 0px 15px 0;
+  }
+  
+  .blog-form form .box input,
+  textarea,
+  select {
+    width: 100%;
+    font-size: 20px;
+    font-weight: 400;
+    padding: 8px;
+    margin-top: 5px;
+    margin-bottom: 20px;
+    background: #f4f3f3;
+    border: 1px solid #c4c4c4;
+    border-radius: 8px;
+  }
+  
+  .blog-form form textarea {
+    height: 200px;
+  }
+  
+  .blog-form form .input-blog-image-group {
+    width: 100%;
+    font-size: 20px;
+    font-weight: 400;
+    padding: 8px;
+    margin-top: 5px;
+    margin-bottom: 20px;
+    background: #f4f3f3;
+    border: 1px solid #c4c4c4;
+    border-radius: 8px;
+    cursor: pointer;
+  }
+  
+  .blog-form form .input-blog-image-group label p {
+    font-size: 15px;
+  }
+  
+  .blog-form form .input-blog-image-group label {
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  .blog-form form .button-group {
+    text-align: right;
+  }
+  
+  .blog-form form button {
+    width: 150px;
+    margin-top: 50px;
+    padding: 8px 20px;
+    font-size: 15px;
+    background: black;
+    color: white;
+    border-radius: 15px;
+    border: none;
+    color: #fff;
+    cursor: pointer;
+  }
+  
+  /* Blog list */
+
+  .blog .blog-list {
+    margin-top: 80px;
+    margin-bottom: 80px;
+    margin-left: 50px;
+    margin-right: 50px;
+    padding-left: 125px;
+    display: grid ;
+    align-items: left;
+    flex-direction: row;
+    grid-template-columns: auto auto auto;
+    justify-content: left;
+  }
+  
+  .blog .blog-list .blog-list-item {
+    width: 250px;
+    height: 350px;
+    padding: 10px;
+    margin-bottom: 20px;
+    margin-right: 40px;
+    border: 2px solid #dbdbdb;
+    border-radius: 8px;
+    background-color: white;
+    
+  }
+  
+  .blog .blog-list .blog-list-item .blog-image img {
+    width: 100%;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 8px;
+    margin-bottom: 5px;
+  }
+  
+  .blog .blog-list .blog-list-item .blog-content {
+    flex: 2;
+  }
+  
+  .blog .blog-list .btn-group {
+    display: inline-flex;
+    text-align: justify;
+    margin-bottom: 20px;
+    margin-top: 30px;
+  }
+  
+  .blog .blog-list .btn-group .btn-edit {
+    margin-right: 10px;
+    width: 120px;
+    padding: 5px 10px;
+    border: 0;
+    border-radius: 4px;
+    background: #dbdbdb;
+  }
+  
+  .blog .blog-list .btn-group .btn-post {
+    width: 120px;
+    padding: 5px 10px;
+    border: 0;
+    border-radius: 4px;
+    background: #ec4d37;
+    color: #fff;
+  }
+  
+  .blog .blog-list h1 a {
+    text-decoration: none;
+    color: #000000;
+    font-size: 15px;
+  }
+  
+  .blog .blog-list .detail-blog-content {
+    font-weight: 300;
+    font-size: 12px;
+    line-height: 20px;
+  }
+  
+  .blog .blog-list .blog-list-item p {
+    margin-top: 10px;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 20px;
+    text-align: justify;
+    margin-bottom: 15px;
+    height: 60px;
+  }
+
+.blog-content .blog-logo-content a{
+  margin-right: 15px;
+}
+
+
+  /* Blog Detail */
+  .blog-detail {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .blog-detail-container {
+    width: 90%;
+    margin: 40px 0;
+  }
+
+  .blog-detail-container h1 {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+
+  .blog-detail-container .blog-detail-cntn{
+    display: flex;
+    margin-bottom: 25px;
+  }
+
+  .container-blogs1{
+    width: 70%;
+  }
+
+  .blog-detail-container .container-blogs1 img {
+    width: 100%;
+    height: 500px;
+  }
+  
+  .container-blogs2{
+
+    width: 30%;
+  }
+
+  .container-blogs2 .duration, .tech{
+    padding-left: 20px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+  }
+
+  .container-blogs2 .duration h3{
+    font-size: 25px;
+    margin-bottom: 15px;
+  }
+
+  .container-blogs2 p{
+    padding-bottom: 20px;
+    font-weight: 700;
+    font-size: 18px;
+  }
+
+  .container-blogs2 i{
+    margin-right: 10px;
+  }
+
+  .container-blogs2 .tech .flx{
+    display: flex;
+    margin-top: 15px;
+  }
+
+  .flx .logo1{
+    margin-right: 40px;
+  }
+
+  .blog-detail-container .paragraph p{
+    text-align: justify;
+  }
